@@ -1,0 +1,142 @@
+/*module-theme*/
+
+
+/*Logan module*/
+.subject{
+    width:99%;
+    padding: 15px 0px 3px 0px;
+    position: relative;
+    z-index: 99;
+	margin:0px 0.5% 0px 0.5% !important;
+}
+/*CMS_FirstPage_Full*/
+.slider.slider.#dnn_ctr1660_CMSFirstPageFull_img1 {width: 427.5px !important;text-align: justify;}
+.accordion, .accordion .content, .slidorion, .slidorion .mainLinkSub {background-color: transparent !important;}
+.slidorion {height: 350px !important;}
+.slidorion .img{zoom: 0.9;}
+.slider {width:70% !important;border-right:none !important;}
+.slider .slide img{
+	width: 100% !important;
+	height: 100% !important;
+	border: solid 3px #ffffff !important;
+    box-shadow: 0px 0px 10px #000000;
+}
+.accordion {text-align: justify; border-right:none !important; border-left: 1px solid #999;width: 30% !important; height: 100% !important;}
+.accordion .content {width: 100% !important; height: inherit !important; border-bottom: 1px dotted #666 !important;}
+.accordion .content span{display: none;}
+.accordion .content:hover{background-color: rgba(193, 195, 53, 0.21) !important;}
+.mCustomScrollBox {padding: 0px 10px 0px 3px;}
+
+/*CMSpView*/
+#dnn_LeftPane #CMS_Art_Title, #dnn_LeftPane .CMS_Article_Description{
+    margin: 10px 0px 0px 0px;
+    float: left;
+    width: 66%;
+    text-align: justify;
+    line-height: 1.6;
+}
+#dnn_LeftPane .CMS_Article_Description{
+    margin-top: 0px !important;
+    padding: 0px 0px 0px 10px !important;
+    color: #3e3e3e;
+}
+#dnn_LeftPane .CMS_Article_Description p {
+    background: transparent !important;
+}
+#dnn_LeftPane .CMS_Article_Description strong {background-color: transparent;}
+
+#dnn_LeftPane .CMS_Article_Next{
+	/*background: url("http://thpt.sgdbinhduong.edu.vn/DesktopModules/CMS/images/smalldot.gif");
+	background-repeat: no-repeat;
+	background-position: 0 11px;*/
+	padding: 5px 0px 0px 10px !important;
+	background: url('http://thpt.sgdbinhduong.edu.vn/Portals/chuyenhungvuong/0-html/res/ico/sprite-2.gif') repeat-x scroll 0 0 transparent;
+	background-position: 0 -286px !important;
+	background-repeat: no-repeat;
+}
+#dnn_LeftPane .CMS_Article_Next a, #dnn_LeftPane.CMS_Article_Next a:link, #dnn_LeftPane .CMS_Art_Title a, #dnn_LeftPane .CMS_Art_Title a:link{
+	color:blue !important;
+	margin-left: 0px;
+}
+#dnn_LeftPane .CMS_Article_Next a:visited, #dnn_LeftPane .CMS_Art_Title a:visited{
+	color:#555 !important;
+}
+#dnn_LeftPane .CMS_Article_Next a:hover, #dnn_LeftPane .CMS_Art_Title a:hover{
+	color:red !important;
+}
+#dnn_LeftPane .CMS_Article_Next a:active, #dnn_LeftPane .CMS_Art_Title a:active{
+	text-decoration: none !important;
+}
+#dnn_LeftPane .CommandButton{display: none;}
+#dnn_LeftPane .CMS_TableContent img{margin-top: 5px;}
+.CMS_Article_Next {text-align: justify;}
+.CMS_Article_Next a img{display:none;}
+.CMS_Article_Next div{float: none !important;}
+
+
+/*subPage*/
+.DnnModule .dnnPEMContNotitle .dnnPEMContNotitleBody{background:transparent;}
+
+/**/
+/*.DnnModule h1.Title {margin-bottom: 5px;    margin-top: -10px;}
+.DnnModule h1.Title span{color: #2424D3 !important; font-weight: bold; margin-left: 5px;}*/
+.DnnModule .Title, .moduleFirstPage .newTitle-GreenSchool{
+    margin: -1px -1px 2px -1px;
+    background-color: rgba(33, 150, 243, 0.92);
+    border-radius: 4px 4px 0px 0px;
+    line-height: 1.2;
+    font-size: 24px;
+}
+@-webkit-keyframes shine {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: top right;
+    }
+}
+.DnnModule h1.Title .Head, .moduleFirstPage .newTitle-GreenSchool span{
+	display: block;
+	/*color: #ffffff !important; */
+	font-weight: bold;
+	font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+	vertical-align: middle;
+	text-transform: lowercase;
+	margin: 5px 0px 3px 10px;
+	
+	background: #ffffff -webkit-gradient(linear, left top, right top, from(#ffffff), to(#ffffff), color-stop(0.25, #8EFF00)) 0 0 no-repeat;
+    color: rgba(255, 255, 255, 0.1);
+    position: relative;
+ 
+    -webkit-animation: shine 8s infinite;
+    -webkit-background-clip: text;
+    -webkit-background-size: 50px;
+}
+.DnnModule h1.Title span::first-letter{
+    text-transform: uppercase;}
+.DnnModule .Title .TitleBar, .moduleFirstPage .newTitle-GreenSchool img {display:none;}
+
+#dnn_RightPane .DnnModule h1.Title{
+    margin: -5px -5px 5px -5px;
+    text-align: center;
+}
+.moduleFirstPage .newTitle-GreenSchool span{margin-left: -15px;}
+#dnn_RightPane .moduleFirstPage .newTitle-GreenSchool{
+	border-radius: 4px 4px 4px 4px;
+	text-align: center;
+	background-color: #0060a6;
+}
+
+/*Banners*/
+.DnnModule-Banners .DNNModuleContent img{width: 100% !important; height: auto !important;}
+
+/*Iframe*/
+#dnn_RightPane .DnnModule .Normal iframe{margin: 0px 0px -3px 0px;}
+
+/*Scroll banners*/
+.DnnModule .panel{
+    border: 1px solid #D0C5C5 !important; margin-bottom: 0px !important;
+}
+.DnnModule .panel marquee{
+    height: 240px !important; width: 100% !important;margin-bottom: -3px !important;
+}

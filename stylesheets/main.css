@@ -1,0 +1,328 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+a {
+	line-height: 125% !important;
+	font-size:13px;
+}	
+a:link{
+    color: #3300CC !important;	
+    text-decoration: none;  
+}
+a:visited{
+    color: #4A5878;
+    text-decoration: none !important;
+}
+
+a:active{
+    color: #61660F;
+    text-decoration: none;
+}
+
+#Background{background: transparent !important;}
+/*#Header{background:#ECAB53 url("http://thpt.sgdbinhduong.edu.vn/Portals/chuyenhungvuong/0-html/Res/BG/Pattern/forum-backdrop.png");}*/
+#Header{background:rgba(0, 188, 212, 0) /*rgba(154, 160, 0, 0.59)*/ url("http://thpt.sgdbinhduong.edu.vn/Portals/chuyenhungvuong/0-html/res/pattern/forum-backdrop.png") !important;}
+#Header #ContentBG{width: 100% !important;margin: 0px auto;}
+
+/*Start #Header .Content*/
+#Header .Content{
+	width: 100%; 
+}
+#Header #ContentBG .Content{
+	height: 220px !important;
+}
+/*Logo*/
+#LogoRow{
+    width: 100% !important;
+    height: 220px !important;
+    padding-top: 25px !important;
+    top: 0px !important;
+    background: url("http://thpt.sgdbinhduong.edu.vn/Portals/chuyenhungvuong/0-html/res/pattern/home-body-bg-cut.png") #219ced;
+}
+#LogoRow >a{width: 1014px !important;margin:0px auto;float:none;}
+#dnn_dnnLogo_imgLogo{width: 100% !important; margin-left:0px !important;height: 148px !important;}
+
+/*Navigation*/
+#Header #Nav{
+	width: 100% !important;
+	height:46px !important;
+	max-height: 46px !important;
+	left:0px !important;
+	top: 173px !important;
+	padding-bottom: 0px !important;
+	/*border-bottom: 1px solid rgb(7, 31, 127);*/
+	border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    border-top: 4px solid rgb(224, 224, 224);
+    background: url("http://thpt.sgdbinhduong.edu.vn/Portals/chuyenhungvuong/0-html/res/pattern/sand-bg.png") rgb(14, 108, 151) !important;
+    box-shadow: inset 0 -4px 3px rgba(0, 0, 0, 0.1);
+    text-shadow: rgba(0, 0, 0, 0.34902) 0px 1px 1px;
+}
+#Header #Nav #dnn_MENU1{width: 1014px !important;margin: 0px auto;}
+
+ul.dnnmega {top: 0px !important;height:36px !important;}
+ul.dnnmega[style] {width:1014px !important;}
+ul.dnnmega li{font-size: 13px !important;}
+ul.dnnmega li.root{height:42px !important; line-height:42px !important;}
+
+ul.dnnmega li.root a {
+    /*border-left: solid 1px #6666FF;
+    border-right: solid 1px #003399;*/
+    border-left: solid 1px rgb(14, 108, 151);
+    border-right: solid 1px rgb(14, 108, 151);
+    position: relative;
+}
+ul.dnnmega li.mmFirst a{
+    border-left: solid 1px rgb(14, 108, 151);
+    /*border-left: none;
+    border-right: solid 1px #003399;*/
+}
+ul.dnnmega li.mmLast a{
+    /*border-left: solid 1px #6666FF;
+    border-right: none;*/
+}
+ul.dnnmega li.root a:hover {
+    background: rgba(15, 124, 174, 0.93);
+    border-radius: 3px;
+    border: solid 1px #86A7BD;
+    box-shadow: 0px 0px 4px #6D5E5E inset;
+}
+ul.dnnmega li.root a span{
+    color: #d3eced;
+    height: 30px !important; 
+    line-height: 30px !important;
+    padding-left: 10px !important; 
+    padding-right: 10px;
+}
+ul.dnnmega li.root a span:hover{color: #fff !important;}
+ul.dnnmega .megaborder {top: 48px !important;}
+ul.dnnmega .megaborder .TR, ul.dnnmega .megaborder .TL, 
+ul.dnnmega .megaborder .MR, ul.dnnmega .megaborder .ML,
+ul.dnnmega .megaborder .BR, ul.dnnmega .megaborder .BL {
+    background: transparent !important;
+}
+ul.dnnmega .megaborder .M {
+    /*background: linear-gradient(to bottom, #51bbd2 0%, #2d97af 100%) !important;
+    border: solid 1px rgba(255, 255, 255, 0.7);*/
+    background: transparent !important;
+    border-radius: 4px;
+}
+ul.dnnmega .megaborder ul li.category{
+    width: 180px !important;
+    border-left: 1px solid #136895;
+    border-right: 1px solid #136895;
+    border-top: 1px solid #136895;
+    background: linear-gradient(#1b98d9, #1888c2);
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.15);
+    border-bottom-width: 0px;
+    text-shadow: rgba(0, 0, 0, 0.34902) 0px 1px 1px;
+    max-height: 33px;
+    min-height: 33px;
+}
+ul.dnnmega li.mmLast .megaborder ul li.category{width: 120% !important;}
+    
+ul.dnnmega .megaborder ul li.category:hover{
+    /*background: linear-gradient(#1888c2, #1578ac) !important;*/
+    /*background: linear-gradient(#1582ba, #1372a3) !important;*/
+    color: #eeeeee !important;
+    background: #d5e41f !important;
+    background: -webkit-linear-gradient(#d5e41f, #c2d119) !important;
+    background: -moz-linear-gradient(#d5e41f, #c2d119) !important;
+    background: -o-linear-gradient(#d5e41f, #c2d119) !important;
+    background: -ms-linear-gradient(#d5e41f, #c2d119) !important;
+    background: linear-gradient(#d5e41f, #c2d119);
+}
+ul.dnnmega .megaborder ul li.category a {border-left:none;border-right:none;display:block;}
+ul.dnnmega .megaborder ul li.category a:hover{
+    border: none !important;
+    box-shadow: none !important;
+}
+ul.dnnmega .megaborder ul li.mmLast {border-bottom: 1px solid #124e6e;}
+ul.dnnmega .megaborder ul li.mmRightColumn, ul.dnnmega .megaborder ul li.mmLast{
+    background: linear-gradient(#1b98d9, #1888c2) !important;
+}
+
+/*Login bar*/
+#Breadcrumb{
+    left:0px !important;
+    top: 0px !important;
+	width: 100% !important;
+	margin: 0px auto;
+    height: 25px !important;
+	margin-bottom: 0px !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3F3F3), color-stop(100%,#CFCFCF));
+    border: 1px #999 solid;
+	/*background-color:transparent;*/
+}
+#Breadcrumb a:link, #Breadcrumb a:visited{color:#000055!important;font-size:11px; font-weight:bold;line-height: 25px !important;}
+#Breadcrumb a:hover{color:#FF3300!important;}
+
+/*End #Header .Content*/
+
+/*Content*/
+#Content{
+	width: 1014px;
+	padding: 6px;
+	margin-top: 20px !important;
+	margin: 0px auto;
+	background: none repeat scroll 0 0 rgba(255,255,255,.2);      
+	border: 1px solid rgba(255,255,255,.75);      
+	box-shadow: 0 0 4px rgba(50,50,50,.5);   
+	border-radius: 4px 4px 4px 4px;   
+	display: block;
+}
+#Panes{
+	width: 1000px !important; 
+	border-radius: 3px 3px 3px 3px; 
+	box-shadow: 0 0 15px #330099;
+	margin: 0 auto;
+    /*background-color: #fff;*/
+    background: #Fff0ff url("http://thpt.sgdbinhduong.edu.vn/Portals/chuyenhungvuong/0-html/res/pattern/light_wool.png");
+}
+/*LeftPane bat buoc nam truoc ContentPane*/
+#dnn_LeftPane{width: 68.8% !important; left: 0px !important; margin: 0px 0px 0px 0px !important;}
+#dnn_LeftPane .DnnModule{
+	margin:5px 5px 10px 5px;
+	background-color: rgba(216, 228, 154, 0.21);
+    /*border: 2px solid #e3e3e3;*/
+	border: 1px solid #D0C5C5;
+	border-radius: 4px;
+}
+#dnn_LeftPane .DnnModule:hover{
+	border: 1px solid #C1B7ED; 
+	box-shadow: 0px 0px 3px 1px #9A92BD;
+}
+#dnn_CenterPane{display:none;}
+#dnn_ContentPane{width:100% !important;left:0px !important}
+#dnn_ContentPane .DnnModule .subject span{
+    font-family: MS sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+#dnn_RightPane{ width: 31% !important; margin: 0px 0px 0px 0px !important;}
+#dnn_RightPane .DnnModule{
+	margin:5px 5px 5px 5px;
+	background-color: rgba(216, 228, 154, 0.21);
+	border: 1px solid #D0C5C5;
+	border-radius: 4px;
+	padding: 4px;
+}
+#dnn_RightPane .DnnModule div.moduleFirstPage {padding:5px !important;}
+#dnn_RightPane .DnnModule div.dnnActionMenuBorder{
+	padding:5px !important;
+	margin: 0px !important;
+	border: 0px #ccc solid !important; 
+}
+#dnn_BottomPane .DnnModule{margin-left:0px !important;}
+#dnn_BottomPane .bottomPageWidth{
+	margin: 0 auto;
+	_width: 976px;
+	_margin: 0 auto;
+	width: 100%;
+}
+#dnn_BottomPane .bottomPageContent{
+	height: 27px !important;
+	font-size: 11px;
+	background-color: #2196F3;
+	border-radius: 0px 0px 2px 2px;
+	-webkit-border-radius: 0px 0px 2px 2px;
+	-moz-border-radius: 0px 0px 2px 2px;
+	-khtml-border-bottom: 0px 0px 2px 2px;
+	overflow: hidden;
+	zoom:1;
+}
+#dnn_BottomPane a, #dnn_BottomPane a:visited {
+	color: #ffffff;
+	padding: 5px;
+	display: block;
+}
+#dnn_BottomPane a:hover, #dnn_BottomPane a:active{
+	color: #d7edfc;
+}
+#dnn_BottomPane .bottom{
+	padding-left: 5px;
+	margin: 2px 0px 0px 0px;
+	height: 27px;
+}
+#dnn_BottomPane .bottom a{
+    color: #fff !important;
+}
+#dnn_BottomPane .choosers{
+	float: left;
+	margin-left: -40px;
+}
+#dnn_BottomPane .footerLinks{
+	float: right;
+}
+#dnn_BottomPane .choosers dt{
+	display: none;
+}
+#dnn_BottomPane .choosers dd{
+	float: left;	
+}
+
+#dnn_BottomPane .footerLinks li{
+	float: left;
+	list-style-type: none !important;
+}
+
+/*Footer*/
+#Header #Footer{
+	margin-top: 10px;
+	padding-top: 3px;
+	background: none repeat scroll 0 0 rgba(255,255,255,.2);
+    border-top: 1px solid rgba(255,255,255,.75);
+    box-shadow: 0 0 8px rgba(50,50,50,.5);
+}
+#Footer .Content{
+	height: 100% !important;
+	box-shadow: 0 0 5px #280275;
+}
+#Footer .Normal {
+    background: url("http://thpt.sgdbinhduong.edu.vn/Portals/chuyenhungvuong/0-html/res/pattern/pixel-gray.gif") !important;
+}
+.chv_footer {
+    height: 100%;
+    width: 100%;
+    margin-left:0px;
+    padding: 20px 0px 15px 0px;
+    /* background: linear-gradient(to top, #0317A6 15%, #B1AFED 100%); */
+    background: -moz-linear-gradient(to top, #0317A6 15%, #B1AFED 100%);
+    background: -o-linear-gradient(to top, #0317A6 15%, #B1AFED 100%);
+    background: -ms-linear-gradient(to top, #0317A6 15%, #B1AFED 100%);
+    /*background: url("http://thpt.sgdbinhduong.edu.vn/Portals/chuyenhungvuong/0-html/res/rattern/wood_background_pattern-50p.jpg");*/
+    background: rgba(16, 11, 94, 0.52);
+    background-position-y: 50px;
+    border-radius: 0px 0px 2px 2px;
+}
+.chv_footer p{
+	text-align: center;
+	margin: 0px;
+}
+.chv_footer span{
+	color: #ffffff;
+}
+.chv_footer #info{
+	margin-bottom: 5px;
+}
+.chv_footer #info span{
+	font-size: 18px;
+	font-family: Times, Arial, Helvetica, Sans-Serif;
+}
+.chv_footer #Details span{
+	font-size: 12px;
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+	line-height: 20px;
+}
+
+.chv_footer #Details a:link, .chv_footer #Details a:visited{
+	color: #a5cae4 !important;
+}
+.chv_footer #Details a:hover, .chv_footer #Details a:active{
+	color: #a5cae4 !important;
+	text-decoration: underline;
+	font-style: italic;
+}
